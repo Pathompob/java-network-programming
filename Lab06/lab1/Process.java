@@ -10,7 +10,7 @@ public class Process extends Thread{
         this.cpu = cpu;
         this.nCPU = nCPU;
     }
-
+    
     public void run(){
         boolean done = false;
         while(!done){
